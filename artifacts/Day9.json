@@ -1,0 +1,84 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {
+				"@_8232": {
+					"entryPoint": null,
+					"id": 8232,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "608060405260458060116000396000f3fe608060405236600a57005b600080fdfea26469706673582212203ab050eb67ddbafb94603f48e8fbd1e8aa6b71f2b7f5bba7ef5ec41a67a2154964736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x45 DUP1 PUSH1 0x11 PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN INVALID PUSH1 0x80 PUSH1 0x40 MSTORE CALLDATASIZE PUSH1 0xA JUMPI STOP JUMPDEST PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASPRICE 0xB0 POP 0xEB PUSH8 0xDDBAFB94603F48E8 0xFB 0xD1 0xE8 0xAA PUSH12 0x71F2B7F5BBA7EF5EC41A67A2 ISZERO 0x49 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
+			"sourceMap": "2065:80:1:-:0;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {
+				"@_8236": {
+					"entryPoint": null,
+					"id": 8236,
+					"parameterSlots": 0,
+					"returnSlots": 0
+				}
+			},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "608060405236600a57005b600080fdfea26469706673582212203ab050eb67ddbafb94603f48e8fbd1e8aa6b71f2b7f5bba7ef5ec41a67a2154964736f6c63430008110033",
+			"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLDATASIZE PUSH1 0xA JUMPI STOP JUMPDEST PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 GASPRICE 0xB0 POP 0xEB PUSH8 0xDDBAFB94603F48E8 0xFB 0xD1 0xE8 0xAA PUSH12 0x71F2B7F5BBA7EF5EC41A67A2 ISZERO 0x49 PUSH5 0x736F6C6343 STOP ADDMOD GT STOP CALLER ",
+			"sourceMap": "2065:80:1:-:0;;;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "13800",
+				"executionCost": "45",
+				"totalCost": "13845"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "payable",
+			"type": "constructor"
+		},
+		{
+			"stateMutability": "payable",
+			"type": "receive"
+		}
+	]
+}
